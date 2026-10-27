@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2026 gagassw
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+NOTE / 참고
+
+This license covers ONLY this repository's documentation and patch-related
+descriptions. Fork and reuse are welcome within these terms.
+
+It does NOT cover:
+  - The game "Giggleland" or any of its files, assets, or text.
+  - Translated game text or extracted game strings.
+  - Fonts or other third-party redistributables (their own licenses apply).
+
+The patched "resources.assets" distributed via GitHub Releases contains the
+game's original assets; it is for owners of the game only and may not be
+redistributed.
+
+이 라이선스는 이 저장소의 문서와 패치 관련 설명에만 적용됩니다(포크·재사용 환영).
+게임 본체·게임 텍스트·번역문·글꼴 등은 포함하지 않으며 각각 원 저작권자/라이선스를
+따릅니다. GitHub Releases 로 배포되는 패치본 resources.assets 는 게임 원본 애셋을
+포함하므로 정품 보유자 전용이며 재배포할 수 없습니다.

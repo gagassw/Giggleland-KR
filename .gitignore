@@ -1,0 +1,77 @@
+# =============================================================================
+#  Giggleland 한국어 패치 — .gitignore
+#  원칙: "소스/문서/스크립트"만 추적한다. 게임 원문·번역 데이터·대용량 바이너리·
+#        개인정보·빌드 산출물은 절대 저장소에 올리지 않는다.
+#  추적 대상: *.cs, *.csproj, *.ps1, *.md, LICENSE, .gitignore, 이슈 템플릿 등.
+# =============================================================================
+
+# ---- 빌드 산출물 / 배포 묶음 (바이너리는 GitHub Releases 로만 배포) ----
+bin/
+obj/
+dist/
+output/
+backups/
+backup/
+*_Backup/
+
+# ---- BepInEx / doorstop 런타임 (저장소엔 미포함, Releases 로 배포) ----
+BepInEx/
+dotnet/
+vendor/
+winhttp.dll
+doorstop_config.ini
+.doorstop_version
+
+# ---- 대용량 / 바이너리 전반 ----
+*.dll
+*.exe
+*.pdb
+*.so
+*.dylib
+*.zip
+*.7z
+*.rar
+
+# ---- Unity 게임 리소스 (추출·동봉 금지) ----
+*.assets
+*.resS
+*.resource
+*.bundle
+*.unity3d
+*.sharedAssets
+
+# ---- 글꼴 파일 (라이선스 문제로 동봉 금지) ----
+*.ttf
+*.otf
+*.ttc
+*.otc
+
+# ---- 게임 원문 / 번역 데이터 (저작권 + 스포일러 — 절대 커밋 금지) ----
+# 번역 데이터 폴더: 설명용 README 만 남기고 나머지는 제외.
+translation/*
+!translation/README.md
+translations/
+*.csv
+*.tsv
+*_catalog.csv
+*_inspect.json
+*_qa.json
+*_overlay/
+glossary*.csv
+schema*.json
+
+# ---- 로그 / 개인정보 / 로컬 전용 ----
+*.log
+*.local
+*.secret
+.env
+.env.*
+
+# ---- OS / 편집기 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vs/
+.vscode/
+.idea/
+*.user
